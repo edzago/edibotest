@@ -1,0 +1,68 @@
+body {
+    color: white;
+    font-family: roboto;
+}
+html {
+
+}
+
+#Hello {
+    color: #66FCF1;
+    font-size: 72px;
+    text-align: center;
+}
+
+#centroid {
+
+    margin: auto;
+    margin-left: 40%;
+    margin-top: 5%;
+    max-width: 500px;
+    line-height: 2;
+}
+
+.header {
+    overflow: hidden;
+    padding: 20px 10px;
+}
+
+.header a {
+    float: left;
+    color: cyan;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.header-right {
+    float: right;
+}
+
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .header-right {
+        float: none;
+    }
+}
+
+html {
+    background: url('https://wallpaperboat.com/wp-content/uploads/2020/07/13/49940/night-10.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
