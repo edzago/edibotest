@@ -1,1 +1,1 @@
-export const isEmailValid = (email) => false;
+export const isEmailValid = (email) => true;
